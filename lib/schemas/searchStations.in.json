@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "Authorization": {
+            "required": true,
+            "type": "string"
+        },
+        "q": {
+            "required": false,
+            "type": "string"
+        },
+        "city": {
+            "required": false,
+            "type": "string",
+            "pattern": "^[A-Za-z '\\.]+$"
+        },
+        "state": {
+            "required": false,
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+        },
+        "lat": {
+            "required": false,
+            "type": "number",
+            "format": "float"
+        },
+        "lon": {
+            "required": false,
+            "type": "number",
+            "format": "float"
+        }
+    }
+}

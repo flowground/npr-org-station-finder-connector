@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "Authorization": {
+            "required": true,
+            "type": "string"
+        },
+        "stationId": {
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+        }
+    }
+}
